@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle github-source-code",
+        "command": "github-source-code:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "github-source-code",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "github-source-code:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
