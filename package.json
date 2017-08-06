@@ -16,7 +16,10 @@
         "atom": ">=1.0.0 <2.0.0"
     },
     "dependencies": {
+        "atom-select-list": "^0.2.0",
+        "etch": "^0.12.5",
         "ramda": "^0.24.1",
+        "rimraf": "^2.6.1",
         "rxjs": "^5.4.2",
         "unfetch": "^3.0.0"
     },
