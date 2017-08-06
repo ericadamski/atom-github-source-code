@@ -4,7 +4,7 @@
     "scripts": {
         "test": "jest"
     },
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Read through open source repositories using Atom.",
     "keywords": [],
     "activationCommands": {
@@ -34,8 +34,6 @@
         "sinon": "^3.0.0"
     },
     "jest": {
-        "testMatch": [
-            "**/?(*.)(spec|test).js?(x)"
-        ]
+        "testMatch": ["**/?(*.)(spec|test).js?(x)"]
     }
 }
